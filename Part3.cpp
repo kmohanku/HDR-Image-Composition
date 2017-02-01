@@ -1,4 +1,4 @@
-/*#include <opencv2/core/core.hpp>
+#include <opencv2/core/core.hpp>
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/photo.hpp>
 #include <opencv2/highgui/highgui.hpp>
@@ -150,5 +150,5 @@ int main(int argc, char** argv)
 	imwrite("HDR_2", HDR2_OP);
 
 	return 0;
-}*/
+}
 
