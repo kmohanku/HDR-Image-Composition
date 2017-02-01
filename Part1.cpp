@@ -1,4 +1,4 @@
-/*#include <opencv2/core/core.hpp>
+#include <opencv2/core/core.hpp>
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui/highgui.hpp>
 
@@ -68,7 +68,7 @@ int main(int argc, char** argv)
 		/*A_Blue = Avg_blue / (CroppedImage.rows*CroppedImage.cols);
 		A_Red = Avg_red / (CroppedImage.rows*CroppedImage.cols);
 		A_Green = Avg_green / (CroppedImage.rows*CroppedImage.cols);*/
-		/*if (blueCount != 0 && redCount != 0 && greenCount != 0) {
+		if (blueCount != 0 && redCount != 0 && greenCount != 0) {
 			A_Blue = Avg_blue / (blueCount);
 			A_Red = Avg_red / (redCount);
 			A_Green = Avg_green / (greenCount);
@@ -83,7 +83,7 @@ int main(int argc, char** argv)
 		/*cout << endl;
 		cout << blueCount << " " << redCount << " " << greenCount << endl;
 		cout << endl;*/
-	/*	cout << "Average Blue = " << A_Blue << " Average Red = " << A_Red << " Average Green = " << A_Green << endl;
+		cout << "Average Blue = " << A_Blue << " Average Red = " << A_Red << " Average Green = " << A_Green << endl;
 
 		out << "Image " << num << endl;
 		out << "Average Blue Values, " << A_Blue << endl;
@@ -104,4 +104,4 @@ int main(int argc, char** argv)
 		//waitKey();
 	out.close();
 	return 0;
-}*/
+}
